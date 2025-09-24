@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "cd Final && npm run build",
+  "outputDirectory": "Final/dist",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/Final/$1"
+    }
+  ]
+}
