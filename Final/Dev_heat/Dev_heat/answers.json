@@ -1,0 +1,44 @@
+{
+    "interview_questions": [
+      {
+        "question": "What is RDBMS?",
+        "answer": "RDBMS stands for Relational Database Management System. It stores data in the form of related tables. It supports primary keys, foreign keys, and is based on relational algebra."
+      },
+      {
+        "question": "What is SQL?",
+        "answer": "SQL stands for Structured Query Language. It is used for storing, manipulating, and retrieving data in databases. It includes commands such as SELECT, INSERT, UPDATE, DELETE."
+      },
+      {
+        "question": "What is a Primary Key?",
+        "answer": "A Primary Key is a column or a combination of columns that uniquely identifies each row in a table. It cannot contain NULL values."
+      },
+      {
+        "question": "What is a Foreign Key?",
+        "answer": "A Foreign Key is a column in one table that refers to the Primary Key in another table. It is used to establish a link between the data in two tables."
+      },
+      {
+        "question": "What is the difference between DELETE and TRUNCATE?",
+        "answer": "DELETE removes specified rows and can be rolled back, while TRUNCATE removes all rows quickly and cannot be rolled back. DELETE is DML, TRUNCATE is DDL."
+      },
+      {
+        "question": "What is Normalization?",
+        "answer": "Normalization is the process of organizing data to reduce redundancy and improve data integrity. It involves dividing a database into two or more tables and defining relationships."
+      },
+      {
+        "question": "What is a JOIN? Name types of JOINs.",
+        "answer": "JOIN is used to combine rows from two or more tables based on a related column. Types: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN."
+      },
+      {
+        "question": "What is an Index?",
+        "answer": "An Index is a database object that improves the speed of data retrieval. It is similar to an index in a book."
+      },
+      {
+        "question": "What is a View?",
+        "answer": "A View is a virtual table based on the result-set of an SQL statement. It can be used to simplify complex queries."
+      },
+      {
+        "question": "What is a Stored Procedure?",
+        "answer": "A Stored Procedure is a precompiled set of SQL statements that can be executed on demand to perform a specific task."
+      }
+    ]
+  }
