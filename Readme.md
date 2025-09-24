@@ -15,7 +15,7 @@ InterviewPro is an intelligent, adaptive mock interview platform that solves the
 | Title            | AI-Powered Adaptive Mock Interview Platform |
 | Theme            | AI Companion, Personalized Learning   |
 | Contact Email    | rn8834@srmist.edu.in                |
-| Participants     | Rijesh Krishna & Team                 |
+| Participants     | Rijesh Krishna, Kavin Bharathi, Siddharth V, Krishna Pravin K B ,Surya K P                  |
 | GitHub Usernames | @RijeshKrishna                        |
 
 ---
