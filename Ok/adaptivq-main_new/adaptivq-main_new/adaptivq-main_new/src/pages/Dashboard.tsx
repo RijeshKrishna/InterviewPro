@@ -83,7 +83,7 @@ const Dashboard = () => {
     const fetchQuestions = async () => {
       try {
         console.log("Starting to fetch questions...");
-        const response = await axios.get('http://localhost:5000/get_test_questions', {
+        const response = await axios.get('https://interviewpro-backend.onrender.com/get_test_questions', {
           params: {
             num_questions: 5,
             category: 'DSA',
@@ -132,7 +132,7 @@ const Dashboard = () => {
       const userAnswersArray = questions.map(q => userAnswers[q.question] || '');
       console.log("Converted userAnswers array:", userAnswersArray);
       
-      const response = await axios.post('http://localhost:5000/evaluate_exam', {
+      const response = await axios.post('https://interviewpro-backend.onrender.com/evaluate_exam', {
         answers: userAnswersArray,
         questions: questions
       });
